@@ -1,0 +1,15 @@
+        <style>
+            div#info {text-align: center}
+            h1 {color:darkmagenta;font-family: cambria; }
+            p#center {color:darkseagreen; font-style: italic; }
+            .label {font-weight: bold;font-style: normal;}
+            div#centeer, h2 {text-align: center;color:darkmagenta;}
+            p {font-style: italic;text-align: center;color: darkgreen;font-weight: bold;}
+            p#warning {color: red}
+            dt {color: orange;}
+            dd {color: darkgreen;}
+            strong {color: darkred;font-weight: bold;}
+            strong#darkgreen {color: darkgreen;}
+            sup {color: red;}
+            .price {color: darkseagreen;}
+        </style>
