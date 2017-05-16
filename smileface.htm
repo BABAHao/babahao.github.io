@@ -1,0 +1,57 @@
+<html>
+	<head>
+		<title>Always Smilling</title>
+		<script type="text/javascript">
+			window.addEventListener('load', eventWindowLoaded, false);
+			function eventWindowLoaded() {
+				canvasApp();
+			}
+			
+			function canvasApp(){
+				var theCanvas = document.getElementById('my_first_canvas');
+				var my_canvas = theCanvas.getContext('2d')
+				my_canvas.strokeRect(0,0,200,225) 
+			
+				my_canvas.beginPath();
+				my_canvas.arc(100,100,75,(Math.PI/180)*0, (Math.PI/180)*360, false);
+				my_canvas.strokeStyle = "black";
+				my_canvas.lineWidth = 3;
+				my_canvas.fillStyle = "yellow";
+				my_canvas.stroke();
+				my_canvas.fill();
+				
+				my_canvas.closePath();
+			
+				my_canvas.fillStyle = "black";
+				my_canvas.beginPath();
+				my_canvas.arc(65,70,10,(Math.PI/180)*0, (Math.PI/180)*360, flase);
+				my_canvas.stroke();
+				my_canvas.fill();
+				my_canvas.closePath();
+			
+				my_canvas.beginPath();
+				my_canvas.arc(135,70,10,(Math. PI/180)*0, (Math.PI/180)8360,false);
+				
+				my_canvas.stroke();
+				my_canvas.fill();
+				my_canvas.closePath();
+				my_canvas.lineWidth = 6;
+				my_canvas.beginPath();
+				my_canvas.arc (99,120,35,(Math.PI/180)*0, (Math.PI/180)*-180,false)
+				my_canvas.stroke();
+				my_canvas.closePath();
+				
+				my_canvas.fillStyle = "black";
+				my_canvas.font = '2px_sans';
+				my_canvas.fillText ("Hello Canvas!", 45, 200); 
+			}
+		</script>
+	</head>
+	<body>
+		<div style="position: absolute; top: 50px; left: 50px">
+			<canvas id="my_first_canvas" width="200" height="225">
+				But every night come out these envoys of beauty, and light the universe with their admonishing smile.
+			</canvas>
+		</div>
+	</body>
+</html>
