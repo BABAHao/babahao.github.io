@@ -14,7 +14,7 @@
 				font-family: Georgia, serif;
 				font-size: 200%;
 				font-weight: bold;
-				line-height:3em;
+				
 				text-shadow: .1em .1em .2em lightslategray;
 				background-color: #86c1d3;
 			}
@@ -48,18 +48,25 @@
 			}
 			footer {
 				background-color: #86c1d3;
-				font-family: Georgia, serif;
-				float: bottom center;
 				
+				float: bottom center;
+				clear: both;
+				
+			}
+			td {
+				font-family: Georgia, serif;
+				text-align: center;
+				font-weight: bold;
 			}
 			div.side {
 				margin: 5px;
 				border: 1px solid #ccc;
 				float: left;
-				width: 400px;
+				width: 30%;
 			}
-			div.side: hover {
-				border: 2px solid #777;
+			div.side:hover {
+				border: 2px solid purple;
+				font-size: 150%;
 			}
 			div.side img {
 				width: 100%;
@@ -75,54 +82,56 @@
 		<header>
 			<h1>
 				<p>
-				<img src="image/logo.png" alt="logo" style="width:120px;height:120px;"/>
-				Habitat of the Panda
+				<img src="image/logo.png" alt="logo" width="100px"; height="100px";/>
+				Where do I live?
 				</p>
 			</h1>
 		</header>
-		<h1 id="borderimg">A shrinking refuge
-
-The giant panda was once widespread throughout southern and eastern China, as well as neighbouring Myanmar and northern Vietnam.
-But due to expanding human populations and development, the species is now restricted to around 20 isolated patches of bamboo forest in six mountain ranges in China's Sichuan, Shaanxi and Gansu provinces.
-
-Most of the remaining wild pandas live in the Minshan and Qinling mountains. And it is here that WWF has focussed its giant panda conservation work, supporting the Chinese government's efforts to conserve the species.
-
-Since habitat loss is the most serious threat to the panda, establishing new reserves and extending existing ones are crucial to its survival.
-
-After a significant increase in recent years, China now boasts a network of 67 panda reserves, which safeguard more than 66% of the giant pandas in the wild and almost 54% of their existing habitat.
-
-The Chinese government, in partnership with WWF, has also developed bamboo corridors to link isolated pockets of forest, allowing the pandas within them to move to new areas, find more food and meet more potential breeding mates..</h1>
+		<h1 id="borderimg">
+			<ol>
+				<li>The giant panda was once widespread throughout southern and eastern China, as well as neighbouring Myanmar and northern Vietnam.</li>
+				<li>But due to expanding human populations and development, the species is now restricted to around 20 isolated patches of bamboo forest in six mountain ranges in China's Sichuan, Shaanxi and Gansu provinces.</li>
+				<li>Most of the remaining wild pandas live in the Minshan and Qinling mountains. And it is here that WWF has focussed its giant panda conservation work, supporting the Chinese government's efforts to conserve the species.</li>
+				<li>Since habitat loss is the most serious threat to the panda, establishing new reserves and extending existing ones are crucial to its survival.</li>
+				<li>After a significant increase in recent years, China now boasts a network of 67 panda reserves, which safeguard more than 66% of the giant pandas in the wild and almost 54% of their existing habitat.</li>
+			</ol>
+		</h1>
 		<div class="side">
-			<a target="_blank" href="diet.htm">
+			<a target="_self" href="diet.htm">
 				<img src="image/diet.jpg" alt="Bamboo"/>
 			</a>
 			<div class="desc">What am I eat?</div>
 		</div>
 		<div class="side">
-			<a target="_blank" href="geo.htm">
-				<img src="image/map1.jpg" alt="Hometown"/>
+			<a target="_self" href="geo.htm">
+				<img src="image/habitat.jpg" alt="Hometown"/>
 			</a>
 			<div class="desc">Where am i live?</div>
 		</div>
 		<div class="side">
-			<a target="_blank" href="cul.htm">
-				<img src="image/movie.jpg" alt="Culture"/>
+			<a target="_self" href="cul.htm">
+				<img src="image/history.jpg" alt="Culture"/>
 			</a>
 			<div class="desc">How am I influencing?</div>
 		</div>
-	</body>
-	<br>
-	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 	<footer>
 		
-			<ul>
-				<li><a href="homepage.htm">Home</a></li>
-				<li><a href="diet.htm">Diet</a></li>
-				<li><a href="geo.htm">Geography</a></li>
-				<li><a href="cul.htm">Culture</a></li>
-			</ul>
-		
-			<h3>@copyright Taylor Ren<br/>for more information tianyi.ren@sdjaschool.com</h3>
+		<table align="center">
+			<tr>
+				<td><a href="homepage.htm">Home</a></td>
+				<td><a href="diet.htm">Diet</a></td>
+				<td><a href="geo.htm">Geography</a></td>
+				<td><a href="cul.htm">Culture</a></td>
+			</tr>
+			<tr>
+				<td colspan="4">@copyright Taylor Ren</td>
+			</tr>
+			<tr>
+				<td colspan="4">for more information tianyi.ren@sdjaschool.com</td>
+			</tr>
+		</table>
+	
 		</footer>
+	</body>
 </html>
 

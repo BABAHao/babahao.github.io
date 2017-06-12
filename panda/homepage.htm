@@ -14,7 +14,7 @@
 				font-family: Georgia, serif;
 				font-size: 200%;
 				font-weight: bold;
-				line-height:3em;
+				
 				text-shadow: .1em .1em .2em lightslategray;
 				background-color: #86c1d3;
 			}
@@ -48,18 +48,25 @@
 			}
 			footer {
 				background-color: #86c1d3;
-				font-family: Georgia, serif;
-				float: bottom center;
 				
+				float: bottom center;
+				clear: both;
+				
+			}
+			td {
+				font-family: Georgia, serif;
+				text-align: center;
+				font-weight: bold;
 			}
 			div.side {
 				margin: 5px;
 				border: 1px solid #ccc;
 				float: left;
-				width: 400px;
+				width: 30%;
 			}
-			div.side: hover {
-				border: 2px solid #777;
+			div.side:hover {
+				border: 2px solid purple;
+				font-size: 150%;
 			}
 			div.side img {
 				width: 100%;
@@ -75,43 +82,48 @@
 		<header>
 			<h1>
 				<p>
-				<img src="image/logo.png" alt="logo" style="width:120px;height:120px;"/>
+				<img src="image/logo.png" alt="logo" width="100px"; height="100px";/>
 				How much do you know me?
 				</p>
 			</h1>
 		</header>
 		<h1 id="borderimg">We are giant panda, also known as panda bear or simply panda. We are easily recognized by the large, distinctive black patches around our eyes, over the ears, and across our round body. While the dragon has often served as China's national sumbol, internationally the giant panda appears at least as commonly.</h1>
 		<div class="side">
-			<a target="_blank" href="diet.htm">
+			<a target="_self" href="diet.htm">
 				<img src="image/diet.jpg" alt="Bamboo"/>
 			</a>
 			<div class="desc">What am I eat?</div>
 		</div>
 		<div class="side">
-			<a target="_blank" href="geo.htm">
-				<img src="image/map1.jpg" alt="Hometown"/>
+			<a target="_self" href="geo.htm">
+				<img src="image/habitat.jpg" alt="Hometown"/>
 			</a>
 			<div class="desc">Where am i live?</div>
 		</div>
 		<div class="side">
-			<a target="_blank" href="cul.htm">
-				<img src="image/movie.jpg" alt="Culture"/>
+			<a target="_self" href="cul.htm">
+				<img src="image/history.jpg" alt="Culture"/>
 			</a>
 			<div class="desc">How am I influencing?</div>
 		</div>
-	</body>
-	<br>
-	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 	<footer>
 		
-			<ul>
-				<li><a href="homepage.htm">Home</a></li>
-				<li><a href="diet.htm">Diet</a></li>
-				<li><a href="geo.htm">Geography</a></li>
-				<li><a href="cul.htm">Culture</a></li>
-			</ul>
-		
-			<h3>@copyright Taylor Ren<br/>for more information tianyi.ren@sdjaschool.com</h3>
+		<table align="center">
+			<tr>
+				<td><a href="homepage.htm">Home</a></td>
+				<td><a href="diet.htm">Diet</a></td>
+				<td><a href="geo.htm">Geography</a></td>
+				<td><a href="cul.htm">Culture</a></td>
+			</tr>
+			<tr>
+				<td colspan="4">@copyright Taylor Ren</td>
+			</tr>
+			<tr>
+				<td colspan="4">for more information tianyi.ren@sdjaschool.com</td>
+			</tr>
+		</table>
+	
 		</footer>
+	</body>
 </html>
 
